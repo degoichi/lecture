@@ -70,6 +70,7 @@ markdownを記載する容量で簡単に使用できます。
 
 1. Node.jsのLTSをインストール [こちら](https://nodejs.org/ja/)
     ![Node.jsの入れ方](01_nodejsinstall.png)
+
 1. cmdで以下のコマンドをたたく
 
     ```cmd
@@ -78,11 +79,15 @@ markdownを記載する容量で簡単に使用できます。
 
     こんな感じになる（はず）
     ![Nodejs](07_nodejs.png)
+
 1. vscodeにフォルダを読み込ませ、フォルダの直下に`.textlintrc`と`prh.yml`を作成
     * このlectureにもpushしているのでそれを参考に入れちゃっていいです。
     * 検索していろいろカスタマイズするといいと思います。
+
     ![ファイルの置き場所](06_textlint_nado.png)
+
 1. vscode再起動
+
 1. 同フォルダに以下の内容のテキストファイルを作成して保存してみる。
 
     ```text
@@ -135,6 +140,7 @@ markdownでスライドをかける拡張機能があります。
 
 vscodeの画面の下のコマンドプロンプト打てる場所でGit bushが使えます。
 ![git bash](08_gitbash.png)
+
 つまり、Windowsでlinuxのコマンドが使えて便利です。CMDのコマンド使いづらいもん。
 特に、vscodeのデフォルトのテキストの文字コードはUTF-8なのでその点も親和性が高いです。
 grepとかcatとか使いまくって大量テキスト処理マンになっています。
