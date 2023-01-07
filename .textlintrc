@@ -1,0 +1,21 @@
+{
+  "filters": {},
+  "rules": {
+    "preset-ja-spacing": true,
+    "preset-ja-technical-writing": {
+      "no-exclamation-question-mark": false,
+      "max-kanji-continuous-len": {
+        "max": 6,
+        "allow": [
+          "妖怪不祥事案件"
+        ]
+      }
+    },
+    "spellcheck-tech-word": true,
+    "prh": {
+      "rulePaths": [
+        "./prh.yml"
+      ]
+    }
+  }
+}

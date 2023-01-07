@@ -1,0 +1,16 @@
+version: 1
+rules:
+  - expected: もっこり
+    pattern: もこっり
+
+  - expected: ファルコン
+    patterns:
+      - ハルコン
+      - ブァルコン
+  
+  - expected: あるとよい
+    patterns:
+      - あったほうがいい
+      - あったほうがよい
+      - あるのがいい
+
