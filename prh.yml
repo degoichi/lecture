@@ -1,12 +1,12 @@
 version: 1
 rules:
-  - expected: もっこり
-    pattern: もこっり
+  - expected: VSCode
+    pattern: vscode
 
-  - expected: ファルコン
+  - expected: Markdown
     patterns:
-      - ハルコン
-      - ブァルコン
+      - マークダウン
+      - markdown
   
   - expected: あるとよい
     patterns:
